@@ -204,7 +204,7 @@ void app_main(void)
 | :------------------------------- | :----------------------------------- | :-------------------------------------- | :--------------------- |
 | **1. CLI Erase**                 | `idf.py erase-flash`                 |                       ปกติ                  |  Device is NOT provisioned (NVS is empty)Ready for Provisioning Lab...                      |
 | **2. Menuconfig Flag**           | `CONFIG_EXAMPLE_RESET_PROVISIONED=y` |      ไม่ได้ทำ                                   |                        |
-| **3. Hardware Button (GPIO 18)** | กดปุ่ม GPIO 18 ค้าง 3 วินาที         |                                         |     Holding button... 1...2...3/3 seconds>>> FACTORY RESET TRIGGERED! <<<Device is NOT provisioned (NVS is empty)                   |ปกติ
+| **3. Hardware Button (GPIO 18)** | กดปุ่ม GPIO 18 ค้าง 3 วินาที         |                                         |     Holding button... 1...2...3/3 seconds>>> FACTORY RESET TRIGGERED! <<<Device is NOT provisioned (NVS is empty)                   |           ปกติ
 
 ---
 
