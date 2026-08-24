@@ -124,6 +124,8 @@ I (26120) app: Connected with IP Address: 192.168.1.155
 ```text
 [พื้นที่สำหรับแนบรูปภาพ Diagram ที่นักศึกษาเขียนขึ้นด้วย Draw.io / Mermaid / วาดมือ]
 ```
+<img width="1200" height="339" alt="ผังงานการตัดสินใจ2" src="https://github.com/user-attachments/assets/d822146b-b927-426f-b433-1aba5c996c96" />
+<img width="995" height="1085" alt="ผังงานการตัดสินใจ4" src="https://github.com/user-attachments/assets/fa4c5909-6f85-45ad-90cb-02b5d0f633a5" />
 
 ---
 
@@ -131,11 +133,11 @@ I (26120) app: Connected with IP Address: 192.168.1.155
 
 | รายการตรวจสอบ | ผลการทดลอง / ข้อมูลที่สังเกตได้ |
 | :--- | :--- |
-| **1. BLE Device Name ที่สแกนเจอ** | `PROV_`.............................. |
-| **2. Primary Service UUID (128-bit)** | ..................................................... |
-| **3. Characteristic Endpoint ที่พบ (0x2901)** | 1. ..................................................<br/>2. ..................................................<br/>3. .................................................. |
+| **1. BLE Device Name ที่สแกนเจอ** | `PROV_0E0248` |
+| **2. Primary Service UUID (128-bit)** | {"ver":"v1","name":"PROV_0E0248","pop":"abcd1234","transport":"ble"} |
+| **3. Characteristic Endpoint ที่พบ (0x2901)** | 1. .prov-session<br/>2. prov-config<br/>3. prov-scan |
 | **4. พฤติกรรมไฟ LED 2 (GPIO 4) ช่วงรอ vs ช่วงต่อ BLE** | ช่วงรอ: .......................................<br/>ช่วงต่อ: ....................................... |
-| **5. พฤติกรรมเมื่อต่อ Wi-Fi สำเร็จ** | มี Log คืนหน่วยความจำ Bluetooth หรือไม่? (มี / ไม่มี) |
+| **5. พฤติกรรมเมื่อต่อ Wi-Fi สำเร็จ** | มี Log คืนหน่วยความจำ Bluetooth หรือไม่?  มี BTDM memory released |
 
 ---
 
