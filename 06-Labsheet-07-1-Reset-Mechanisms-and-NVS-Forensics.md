@@ -178,12 +178,24 @@ void app_main(void)
 ```text
 [พื้นที่สำหรับแนบรูปภาพ Flowchart ที่นักศึกษาเขียนขึ้นด้วย Draw.io / Mermaid / วาดมือ]
 ```
+<img width="493" height="2860" alt="ผังงานการตัดสินใจ" src="https://github.com/user-attachments/assets/b9d2bbe0-492c-484f-8d6d-1a89e926a2d5" />
+```
+```
 
 ### ภารกิจที่ 2 ผังสถานะการเปลี่ยนจังหวะไฟ LED 1 (Wi-Fi STA Indicator)
 ให้นักศึกษาวาด State Diagram แสดงการเปลี่ยนสถานะของ **LED 1 (GPIO 2)**:
 - เงื่อนไขใดทำให้ LED 1 เข้าสู่สถานะ `LED_STA_MODE_DISCONNECTED` (กระพริบ 200ms Mark / 200ms Space)
 - เงื่อนไขหรือ Event ใดทำให้เปลี่ยนเป็น `LED_STA_MODE_CONNECTED` (Heartbeat 200ms ทุก 1s)
 
+[ ไฟดับ (OFF) ]
+              |
+              | (เริ่มเชื่อมต่อ Wi-Fi)
+              v
+[ ไฟกระพริบเร็ว (DISCONNECTED) ]
+              |
+              | (ต่อเน็ตสำเร็จ ได้ IP)
+              v
+  [ ไฟกระพริบช้า (CONNECTED) ]
 ---
 
 ## 6. ตารางบันทึกผลการทดลอง (Experiment Results)
