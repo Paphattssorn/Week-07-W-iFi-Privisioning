@@ -133,7 +133,7 @@ I (19850) app: Connected with IP Address: 192.168.1.150
 
 | รายการตรวจสอบ | ค่าที่บันทึกได้จากการทดลอง |
 | :--- | :--- |
-| **1. ชื่อ SoftAP SSID ของ ESP32** | `PROV_`PROV_0E0248 |
+| **1. ชื่อ SoftAP SSID ของ ESP32** | `PROV_0E0248` |
 | **2. รหัส PoP (Proof of Possession)** | abcd1234 |
 | **3. ข้อความใน QR Code Payload (JSON)** |{"ver":"v1","name":"PROV_0E0248","pop":"abcd1234","transport":"softap"} |
 | **4. พฤติกรรมไฟ LED 3 (GPIO 5) ช่วงรอ vs ช่วงส่งข้อมูล** | ช่วงรอ: ติดค้างสว่างตลอด<br/>ช่วงส่ง: .....ติดค้างสว่างตลอด |
