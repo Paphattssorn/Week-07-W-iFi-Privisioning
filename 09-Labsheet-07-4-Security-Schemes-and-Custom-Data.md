@@ -152,6 +152,11 @@ wifi_prov_mgr_endpoint_register("custom-data", custom_prov_data_handler, NULL);
 ```text
 [พื้นที่สำหรับแนบรูปภาพ Diagram ที่นักศึกษาเขียนขึ้นด้วย Draw.io / Mermaid / วาดมือ]
 ```
+1.
+<img width="826" height="903" alt="แบบแผนที่ยังไม่ได้ตั้งชื่อ drawio" src="https://github.com/user-attachments/assets/c41325d9-92de-4ed6-a3d6-d8ef043cf8fd" />
+
+2.
+<img width="1145" height="743" alt="แบบแผนที่ยังไม่ได้ตั้งชื่อ drawio (1)" src="https://github.com/user-attachments/assets/3a54f2ef-83dc-4322-a9c0-cc0faed96340" />
 
 ---
 
