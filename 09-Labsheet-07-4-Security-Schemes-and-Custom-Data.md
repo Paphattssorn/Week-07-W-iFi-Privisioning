@@ -159,9 +159,9 @@ wifi_prov_mgr_endpoint_register("custom-data", custom_prov_data_handler, NULL);
 
 | สถานการณ์ทดสอบ | ค่า PoP ที่ป้อน | ผลลัพธ์บนแอปมือถือ | ข้อความ Log ใน Serial Monitor |
 | :--- | :--- | :--- | :--- |
-| **1. ป้อน PoP ผิดพลาด** | `wrong1234` | | |
-| **2. ป้อน PoP ถูกต้อง** | `abcd1234` | | |
-| **3. ส่ง Custom Data** | `TEST_DATA_999` | | |
+| **1. ป้อน PoP ผิดพลาด** | `wrong1234` |E (160486) wifi_prov_mgr: STA Disconnected |E (160486) wifi_prov_mgr: Disconnect reason : 211 |
+| **2. ป้อน PoP ถูกต้อง** | `abcd1234` | E (160486) wifi_prov_mgr: STA Disconnected|E (160486) wifi_prov_mgr: Disconnect reason : 211 |
+| **3. ส่ง Custom Data** | `TEST_DATA_999` |E (160486) wifi_prov_mgr: STA Disconnected |E (160486) wifi_prov_mgr: Disconnect reason : 211 |
 
 ---
 
